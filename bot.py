@@ -30,9 +30,7 @@ def help(message):
 name_it = ''
 surname_it = ''
 number_it = ''
-email_it = ''
-user_id_it = ''
-new_number_it = ''
+
 @bot.message_handler(content_types=['text'])
 def main(message):
     if message.text == '/main':
